@@ -14,4 +14,14 @@ func main() {
 
 	// This prints the correct number of charactors in the string literal
 	fmt.Println(utf8.RuneCountInString(name))
+
+	// Raw String
+	rawString := `{
+		"random": 71,
+		"random float": 7.97,
+		"bool": true,
+		"date": "1998-01-08",
+	}`
+
+	fmt.Println(rawString)
 }
